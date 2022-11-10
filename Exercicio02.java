@@ -14,7 +14,7 @@ public class Exercicio02 {
     int b = Integer.parseInt(JOptionPane.showInputDialog(null,"Valor de B","Soma",JOptionPane.QUESTION_MESSAGE));
     
     //Declarando variável |X
-    int X = a + b;
+    int X = (a + b);
 
     JOptionPane.showMessageDialog(null,"X = "+X);
   }

@@ -13,7 +13,7 @@ public class Exercicio04 {
       b=Double.parseDouble(JOptionPane.showInputDialog(null, "Valor de B:"));
       c=Double.parseDouble(JOptionPane.showInputDialog(null, "Valor de C:"));
 
-      delta = (b*b)-4*a*c;
+      delta = ((b*b)-4*a*c);
 
       if(a==0  | delta <0){
         System.out.println("Impossivel calcular");

@@ -9,7 +9,7 @@ public class Exercício03 {
     int A = Integer.parseInt(JOptionPane.showInputDialog(null, "Valor de A:"));
     int B = Integer.parseInt(JOptionPane.showInputDialog(null, "Valor de B"));
 
-    int SOMA = A + B;
+    int SOMA = (A + B);
     System.out.printf("SOMA = %d", SOMA);
   
   }
