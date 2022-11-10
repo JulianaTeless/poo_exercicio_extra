@@ -1,4 +1,3 @@
-import javax.sound.sampled.SourceDataLine;
 import javax.swing.JOptionPane;
 
 public class Exercício03 {
